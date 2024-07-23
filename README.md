@@ -12,4 +12,9 @@ Anaconda Navigator에서 import하여 사용할 수 있습니다.
 ##### 24.07.22
 * Initial commit과 PyCharm-Github 연동 완료.
 
+##### 24.07.23
+* 패션 자료 수집
+
+
+
 ##### 24.XX.XX

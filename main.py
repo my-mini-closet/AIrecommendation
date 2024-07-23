@@ -16,15 +16,9 @@ warnings.filterwarnings('ignore')
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 print('Device:', device)
 
-class Config:
-    ROOT_FOLDER = './'
-    SRC_FOLDER = ROOT_FOLDER + 'src/'
 
-    BATCH_SIZE = 32
-    N_EPOCHS = 30
-    LR = 3e-4
-    SEED = 77
-CONFIG = Config()
+import config
+CONFIG = config.config()
 
 import customdata as cData
 cdataset = cData.CustomDataSet()
