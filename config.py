@@ -1,4 +1,4 @@
-class config():
+class config:
     ROOT_FOLDER = './'
     SRC_FOLDER = ROOT_FOLDER + 'src/'
 

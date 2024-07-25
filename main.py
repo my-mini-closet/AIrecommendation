@@ -16,10 +16,9 @@ warnings.filterwarnings('ignore')
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 print('Device:', device)
 
-
 import config
 CONFIG = config.config()
 
-import customdata as cData
-cdataset = cData.CustomDataSet()
+import data
+cdataset = data.customDataset()
 cdataset.hello()
